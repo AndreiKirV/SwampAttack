@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     public int Money {get; private set;}
 
     public event UnityAction<int,int> HealthChanged;
-     public event UnityAction<int> MoneyChanged;
+    public event UnityAction<int> MoneyChanged;
 
     private void Start() 
     {

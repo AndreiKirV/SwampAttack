@@ -4,28 +4,16 @@ using UnityEngine;
 
 public class Rifle : Weapon
 {
-    private float _timer = 0;
-    private float _delay = 1f;
-    private float _numberOfShots = 5;
-    private bool _isShooting = false;
-
-    private void Update() 
-    {
-        if (_isShooting == true)
-        {
-            Debug.Log("отсчитываю");
-        }
-    }
-
+    private Vector3 _newShootPoint = new Vector3(1,0,0);
+    private int _cartridgeRounds = 5;
     public override void Shoot(Transform shootPoint)
     {
-        _isShooting = !_isShooting;
-        Debug.Log("Переключил исшутинг" + _isShooting);
-    }
+        for (int i = 0; i < _cartridgeRounds; i++)
+        {
+            Instantiate(Bullet, shootPoint.position, Quaternion.identity);
+            shootPoint.position += _newShootPoint;
+        }
 
-    private void StartTimer()
-    {
-        Debug.Log("отсчитываю");
-        _timer -= Time.deltaTime;
+        shootPoint.position -= _newShootPoint * _cartridgeRounds;
     }
 }
