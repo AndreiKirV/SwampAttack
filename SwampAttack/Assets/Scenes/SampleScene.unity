@@ -1934,7 +1934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _weapons:
-  - {fileID: -3134224827789003745, guid: 3aace15967cc81b4f9ed57a5d829021b, type: 3}
+  - {fileID: 905522795818279169, guid: 3aace15967cc81b4f9ed57a5d829021b, type: 3}
   _player: {fileID: 1939662566}
   _tempLate: {fileID: 4401102632096380635, guid: d3ea8a20ee291bd4f9400bff49bcab2f, type: 3}
   _itemContainer: {fileID: 1991153707}
@@ -2290,19 +2290,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _waves:
-  - Template: {fileID: 5908402893584245013, guid: 9f2bf9c2b9256a04cbd0e1636c6fbe7a, type: 3}
+  - Template: {fileID: 7111374708228145308, guid: 0ea686eb9ed8f714790af6f8fb1748ef, type: 3}
     Delay: 1
     Count: 5
   - Template: {fileID: 5908402893584245013, guid: 9f2bf9c2b9256a04cbd0e1636c6fbe7a, type: 3}
     Delay: 0.75
     Count: 10
-  - Template: {fileID: 5908402893584245013, guid: 9f2bf9c2b9256a04cbd0e1636c6fbe7a, type: 3}
+  - Template: {fileID: 7111374708228145308, guid: 0ea686eb9ed8f714790af6f8fb1748ef, type: 3}
     Delay: 0.5
     Count: 15
   - Template: {fileID: 5908402893584245013, guid: 9f2bf9c2b9256a04cbd0e1636c6fbe7a, type: 3}
     Delay: 0.3
     Count: 20
-  - Template: {fileID: 5908402893584245013, guid: 9f2bf9c2b9256a04cbd0e1636c6fbe7a, type: 3}
+  - Template: {fileID: 7111374708228145308, guid: 0ea686eb9ed8f714790af6f8fb1748ef, type: 3}
     Delay: 0.1
     Count: 25
   _spawnPoint: {fileID: 811088023}
@@ -5008,7 +5008,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939662562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.79, y: -4.09, z: 0}
+  m_LocalPosition: {x: 5, y: -4.09, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 936169377}
@@ -5029,7 +5029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _health: 50
   _weapons:
-  - {fileID: -3134224827789003745, guid: 3aace15967cc81b4f9ed57a5d829021b, type: 3}
+  - {fileID: 2418792626519413174, guid: 97b48fdfb6b30144e9eb07c2996ee549, type: 3}
   _shootPoint: {fileID: 936169377}
 --- !u!1 &1942570404
 GameObject:
